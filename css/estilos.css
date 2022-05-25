@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;}
+
+header{
+	margin-bottom: 1%;
+	background-color: #EAEDF7;
+	background-image: url(https://p4.wallpaperbetter.com/wallpaper/599/327/755/cooking-table-eggs-butter-wallpaper-preview.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:100%;
+	height: 40vh;
+}
+
+h1{
+	padding: 5%;
+	color: white;
+	font-size: 7rem;
+	text-align: center;
+
+}
+
+#nav{
+	display: flex;
+	justify-content: space-around;
+}
+nav{
+ background-color: #EAEDF7;
+ margin-bottom: 40px;
+}
+
+.a_class{
+	display: inline-block;
+	padding: 3vh 3vh;
+	margin-top: 5vh;
+	margin-right: 3vh;
+	margin-left: 2.5vh;
+	letter-spacing: 0.01vh;
+	color:blue;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.5em;
+	overflow: hidden;
+	transition: 0.2s;
+	border-radius: 5vh;
+	font-family: monospace;
+}
+
+.a_class:hover{
+background:#03FFEC;
+box-shadow: 0 0 10px #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+margin-bottom: 30px;
+
+}
+
+aside{
+  background-color:#EAEDF7;
+	margin: 1%;
+	margin-right: 20px;
+	width:25%;
+	text-overflow: right;
+	padding-top: 4vh;
+	padding-left: 15px;
+	float: left;
+	box-sizing: border-box;
+	border:3px solid ;
+	height: 300px;
+	overflow: auto;
+
+}
+article
+section{
+
+	background-position: 50% 50%;
+	margin: 1%;
+	background-color:#EAEDF7;
+
+	padding-left: 3vh;
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+	border:3px solid black;
+	height: 300px;
+	overflow: auto;
+
+}
+
+article{
+	background-color:#f4fab4;
+	background-image: url(https://previews.123rf.com/images/mashabr/mashabr1508/mashabr150800009/43271442-patr%C3%B3n-sin-fisuras-con-los-utensilios-de-cocina-dibujado-a-mano-en-el-papel-rayado-fondo-de-la-cocin.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	margin: 10px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	width: 98%;
+	clear:both;
+	text-align: center;
+	box-sizing: border-box;
+	border:3px solid ;
+	overflow: auto;
+}
+
+footer{
+	background-color: #7983A2;
+	text-decoration: none;
+	height: 90px;
+	padding-left: 85vh;
+}
+.redes_sociales{
+	float: left;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+.redes{
+	width: 10vh;
+	height: 10vh;
+}
+.underline{
+	text-decoration: underline;
+	font-size: 2.2rem;
+}
+
+.underline:hover{
+	font-size: 2.2rem;
+}
+
+
+body{
+	background-color:#A8B3D3;
+}
+
+img{
+	margin-right: 30px;
+}
+
+.boton-w{
+	background-color: #A8B3D3;
+	border:1px solid white;
+	position: fixed;
+	z-index: 999;
+	border-radius: 50%;
+	bottom: 2vh;
+	right: 2vh;
+	padding: 25px;
+	transition: ease 0.3s;
+	width: 10vh;
+	animation: efecto 1.2s infinite;
+}
+
+.boton-w:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.boton{
+	padding: center;
+	width: 10vh;
+	transition: ease 1s;
+
+}
+
+@keyframes efecto{
+	0%{
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+	}
+	100%{
+		box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+	}
+}
+
+form{
+	font-weight: bold;
+}
+
+.contact-button{
+	margin-top: 25px;
+    display: inline-block;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 30px;
+	background-color: #8DA8F6;
+ 	margin-bottom: 40px;
+}
+
+.contact-button:hover{
+background:#03FFEC;
+box-shadow: 0 0 10px #F1948A, 0 0 30px #F1948A,0 0 60px #F1948A;
+}
+
+.div1-1 {
+	font-size: 15px;
+	color: #EAEDF7 ;
+}
+
+.div1-1:hover {
+	font-size: 20px;
+	color:red ;
+}
+
+#video:hover{
+	color:blue;
+}
+
+.subtitulos:hover{
+	color: blue;
+}
